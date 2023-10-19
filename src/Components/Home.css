@@ -1,0 +1,105 @@
+.appName {
+    padding: 10px 0 0 0;
+    background: linear-gradient(to right, rgb(228, 14, 49), rgb(13, 42, 227));
+    -webkit-background-clip: text; /* For webkit-based browsers (Safari, Chrome) */
+    background-clip: text;
+    color: transparent; /* Make the text color transparent to show the gradient background */
+    font-size: 75px;
+    font-family: 'Croissant One', cursive;
+}
+
+.searchBarContainer {
+    margin-top: 50px;
+}
+
+.searchBar {
+    background: rgb(226, 217, 217);
+    color: black;
+    font-size: 20px;
+    width: 700px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div {
+    display: block;
+}
+
+.moviesContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 80px 70px 20px 70px; 
+}
+
+.searchMoviesContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 80px 70px 20px 70px; 
+}
+
+.movie {
+    font-size: 14px;
+    color: #818181;
+    position: relative;
+    width: 270px;
+    height: 460px;
+    background: black;
+    box-shadow: 0 0 27px rgba(0, 0, 0, 0.53);
+    margin-right: 20px;
+    margin-bottom: 65px;
+    border-radius: 7px;
+}
+
+.movieImage {
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    background-size: cover;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    cursor: pointer;
+}
+
+.movieImage:hover {
+    transform: scale(1.1);
+}
+
+.movieName {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 20px 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.image1{
+    width: 270px;
+    height: 460px;
+}
+
+.movieName {
+    background-color: black;
+    padding: 5% 0 5% 0;
+}
